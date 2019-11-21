@@ -1,0 +1,39 @@
+{
+  "name": "graphql_apollo",
+  "version": "1.0.0",
+  "description": "creating a very basic api wiht graphql & Apollo",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon -e ts,graphql ./src/index",
+    "lint": "standard",
+    "lint-fix": "standard --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaimeCardenas176/graphql_Apollo.git"
+  },
+  "keywords": [
+    "api",
+    "graphql",
+    "apollo"
+  ],
+  "author": "jaime cardenas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JaimeCardenas176/graphql_Apollo/issues"
+  },
+  "homepage": "https://github.com/JaimeCardenas176/graphql_Apollo#readme",
+  "dependencies": {
+    "@types/graphql": "^14.5.0",
+    "@types/node": "^12.12.11",
+    "apollo-server-express": "^2.9.11",
+    "express": "^4.17.1",
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0",
+    "standard": "^14.3.1",
+    "ts-node": "^8.5.2"
+  }
+}
